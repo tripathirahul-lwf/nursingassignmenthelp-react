@@ -36,17 +36,9 @@
     }
 }
 
-.header-eight .header-image img {
-    width: 100%;
-    border-radius: 8px
-}
 
-@media only screen and (min-width:768px) and (max-width:991px),
-(max-width:767px) {
-    .header-eight .header-image {
-        margin-top: 40px
-    }
-}
+
+
 
 .header-eight .header-content {
     border-radius: 0;
@@ -102,7 +94,9 @@
     color: var(--white);
     border-color: var(--white)
 }
-.banner_form{
+
+.banner_form {
     border-radius: 20px;
+    max-height: 500px;
     overflow: hidden;
 }
