@@ -1,9 +1,9 @@
-.truedby{
+.truedby {
     padding: 100px 0;
     background-color: var(--light-3);
 }
 
-.trusted-block{
+.trusted-block {
     text-align: center;
     padding: 35px;
     margin: 1rem;
@@ -14,24 +14,36 @@
     -webkit-transition: all 0.5s;
     transition: all 0.5s;
 }
-.trusted-block:hover{
+
+.trusted-block:hover {
     box-shadow: var(--shadow-4);
 }
-.rating , .review-count{
+
+.rating,
+.review-count {
     font-size: 18px;
     color: #766d6d;
     font-weight: 600;
     margin: .7rem 0;
 }
-.review-count{
+
+.review-count {
     padding-bottom: 20px;
     border-bottom: 1px solid #ccc;
 }
-.rate_star{
+
+.rate_star {
     color: #ffb700;
 }
-.trusted-logo img{
+
+.trusted-logo img {
     margin-top: 10px;
     height: 60px;
     width: 90%;
+}
+
+@media screen and (max-width: 991px) {
+    .trusted-block {
+        margin: 1rem;
+    }
 }
