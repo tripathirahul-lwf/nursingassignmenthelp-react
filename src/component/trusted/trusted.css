@@ -1,0 +1,37 @@
+.truedby{
+    padding: 100px 0;
+    background-color: var(--light-3);
+}
+
+.trusted-block{
+    text-align: center;
+    padding: 35px;
+    margin: 1rem;
+    background-color: #fff;
+    border-radius: 6px;
+    position: relative;
+    border: 1px solid #eee;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.trusted-block:hover{
+    box-shadow: var(--shadow-4);
+}
+.rating , .review-count{
+    font-size: 18px;
+    color: #766d6d;
+    font-weight: 600;
+    margin: .7rem 0;
+}
+.review-count{
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+}
+.rate_star{
+    color: #ffb700;
+}
+.trusted-logo img{
+    margin-top: 10px;
+    height: 60px;
+    width: 90%;
+}

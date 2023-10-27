@@ -1,0 +1,66 @@
+.content {
+    background: var(--primary-color);
+    padding: 2rem 0 1rem;
+}
+
+.content-title {
+    font-size: 30px;
+    font-weight: 500;
+    margin: 1rem 0 3rem;
+}
+
+.content .description {
+    font-size: 16px;
+    color: #222;
+    margin: 1rem 0;
+}
+
+.content-img img {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.content-area {
+    padding-bottom: 4rem;
+    margin-top: 4rem;
+}
+.content-area  .accordi .accordion-item-header {
+    padding: 0.5rem 3rem 0.5rem 1rem;
+    font-size: 17px;
+    min-height: 3.5rem;
+    line-height: 1.25rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+    color: #000;
+    text-transform: uppercase;
+}
+.accordion-item-header::after {
+    content: "\f0da";
+    font-family: 'Font Awesome 5\ free';
+    font-size: 1.1rem;
+    position: absolute;
+    right: 1rem;
+    transition: all .4s;
+}
+.accordion-item-header.active::after {
+    transform: rotate(90deg);
+}
+
+ .accordion-item-body {
+    max-height: 0;
+    overflow: hidden;
+    line-height: 150%;
+    opacity: 0.8;
+    transition: all .5s;
+}
+.accordion-item-body.show{
+    height: auto;
+    max-height: 555px;
+}
+.content-area  .accordi .accordion-item-body-content{
+    padding: 0 15px 15px;
+}
