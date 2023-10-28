@@ -115,31 +115,26 @@ const About = () => {
                   </nav>
                   <div className="tab-content" id="nav-tabContent">
                     <div className="tab-pane fade show active" id="nav-who" role="tabpanel" aria-labelledby="nav-who-tab">
-                      <p>It is a long established fact that a reader will be distracted by the readable content of a page
-                        when
-                        looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
-                        distribution of letters, look like readable English.</p>
-                      <p>There are many variations of passages of Lorem Ipsum available, but the majority have in some
-                        form,
-                        by injected humour.</p>
+                      <p>A <b>nursing assignment helper</b> offering real time solutions that are extensively researched and
+                        well-structured according to your needs!
+                      </p>
                     </div>
                     <div className="tab-pane fade" id="nav-vision" role="tabpanel" aria-labelledby="nav-vision-tab">
-                      <p>It is a long established fact that a reader will be distracted by the readable content of a page
-                        when
-                        looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
-                        distribution of letters, look like readable English.</p>
-                      <p>There are many variations of passages of Lorem Ipsum available, but the majority have in some
-                        form,
-                        by injected humour.</p>
+                      <p>Understanding that nursing studies and training do not come easy, our vision is to elevate and
+                        empower the upcoming generation to focus on becoming the best in healthcare professions.
+                        We strive to be the support students need by collaborating with the best nursing assignment
+                        experts when they are busy in the world of healthcare. Our ultimate vision is to become the
+                        source of relief when it comes to seeking professional nursing assignment help Australia. </p>
                     </div>
                     <div className="tab-pane fade" id="nav-history" role="tabpanel" aria-labelledby="nav-history-tab">
-                      <p>It is a long established fact that a reader will be distracted by the readable content of a page
-                        when
-                        looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
-                        distribution of letters, look like readable English.</p>
-                      <p>There are many variations of passages of Lorem Ipsum available, but the majority have in some
-                        form,
-                        by injected humour.</p>
+                      <p>Nursing Assignment Help and its team members are on a thoughtful mission to enable
+                        students pursuing nursing education, to reach their fullest potential. All our nursing
+                        assignment help experts are passionate about providing students with comprehensive
+                        support, and resources along with relevant guidance to conquer their dream of becoming an
+                        efficient nurse. Nursing Assignment Help has a single mission and that is to provide every
+                        student in need of help with access to high quality help with nursing assignment whenever
+                        they need, wherever they need!
+                      </p>
                     </div>
                   </div>
                 </div>

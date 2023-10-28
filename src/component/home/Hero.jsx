@@ -10,11 +10,9 @@ const Hero = () => {
           <div className="row align-items-center">
             <div className="col-lg-6 col-md-12 col-12">
               <div className="header-content">
-                <h1>Corporate & Business Site Template by Ayro UI.</h1>
+                <h1>Best Nursing Assignment Help in Australia</h1>
                 <p>
-                  We are a digital agency that helps brands to achieve their
-                  business outcomes. We see technology as a tool to create amazing
-                  things.
+                  Nurse your assignment back to life with our nursing assignment help experts online!
                 </p>
                 <div className="button">
                   <a href="/" className="btn primary-btn">Connect with expert</a>
