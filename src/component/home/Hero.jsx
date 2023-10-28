@@ -14,6 +14,10 @@ const Hero = () => {
                 <p>
                   Nurse your assignment back to life with our nursing assignment help experts online!
                 </p>
+                <p>
+                  Get top Nursing Assignment writing services from our team of world-class PhD writers!
+
+                </p>
                 <div className="button">
                   <a href="/" className="btn primary-btn">Connect with expert</a>
                 </div>

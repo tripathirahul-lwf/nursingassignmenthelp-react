@@ -12,10 +12,11 @@ const Steps = () => {
                             <div className="col-12">
                                 <div className="content">
                                     <h6>Steps</h6>
-                                    <h2 className="fw-bold">Three steps</h2>
+                                    <h2 className="fw-bold">How To Get Help With Nursing Assignment?</h2>
                                     <p>
-                                        There are many variations of passages of Lorem Ipsum available,
-                                        but the majority have suffered alteration in some form.
+                                        Want to make an urgent nursing assignment help order? Our three-step ordering process will
+                                        assist you in getting help with nursing assignment as quickly as possible!
+
                                     </p>
                                 </div>
                             </div>
@@ -32,16 +33,16 @@ const Steps = () => {
                                     </div>
                                 </div>
                                 <div className="light-rounded-buttons">
-                                    <a href="/" className="btn primary-btn-outline step-btn">
-                                        Start free trial
+                                    <a className="btn primary-btn-outline step-btn">
+                                        Provide the Details
                                     </a>
                                 </div>
                                 <div className="table-content">
                                     <p className="step_content">
-                                        Details are important to us! To provide a custom solution to your assignment request, our assignment
-                                        experts pay special attention to the forms you fill out before submitting your order request. So, if you
-                                        are wanting to get the right results from our assignment writing service then, ensure to mention each
-                                        and every detail in the form.
+                                        Your help with nursing assignment begins as soon as you provide us with your assignment
+                                        details. You can fill out the order form, select the deadline for your assignment and upload
+                                        the instruction file(s). Ensure to give us everything you have so that we can be your partner
+                                        for all the A grades you want!
                                     </p>
                                 </div>
                             </div>
@@ -54,16 +55,16 @@ const Steps = () => {
                                     </div>
                                 </div>
                                 <div className="light-rounded-buttons">
-                                    <a href="/" className="btn primary-btn step-btn">
-                                        Start free trial
+                                    <a className="btn primary-btn step-btn">
+                                        Initiate Payment
                                     </a>
                                 </div>
                                 <div className="table-content">
                                     <p className="step_content">
-                                        Details are important to us! To provide a custom solution to your assignment request, our assignment
-                                        experts pay special attention to the forms you fill out before submitting your order request. So, if you
-                                        are wanting to get the right results from our assignment writing service then, ensure to mention each
-                                        and every detail in the form.
+                                        After enlisting all your requirements, it's time to make the payment. Our nursing assignment
+                                        help Australia services ensure to provide students with the ease they have been looking for
+                                        while seeking assistance. By providing multiple modes of payment, we make the process
+                                        smooth and easy to order!
                                     </p>
                                 </div>
                             </div>
@@ -77,15 +78,14 @@ const Steps = () => {
                                 </div>
                                 <div className="light-rounded-buttons">
                                     <a href="/" className="btn primary-btn-outline step-btn">
-                                        Start free trial
+                                        Check Email to Download the Solution
                                     </a>
                                 </div>
                                 <div className="table-content">
                                     <p className="step_content">
-                                        Details are important to us! To provide a custom solution to your assignment request, our assignment
-                                        experts pay special attention to the forms you fill out before submitting your order request. So, if you
-                                        are wanting to get the right results from our assignment writing service then, ensure to mention each
-                                        and every detail in the form.
+                                        As soon as you initiate the payment, we assign the best nursing assignment expert for your
+                                        assistance. They will get on a call with you for custom nursing assignment help and will deliver
+                                        the solution file to your email within the promised deadline!
                                     </p>
                                 </div>
                             </div>

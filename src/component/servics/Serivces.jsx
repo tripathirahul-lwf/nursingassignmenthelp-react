@@ -28,7 +28,7 @@ const Serivces = () => {
 
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-4 col-md-6">
+                        <div className="services_main_block">
                             <div className="single-services">
                                 <div className="service-icon">
                                     <i className="lni lni-capsule"></i>
@@ -41,8 +41,7 @@ const Serivces = () => {
                                     </p>
                                 </div>
                             </div>
-                        </div>
-                        <div className="col-lg-4 col-md-6">
+
                             <div className="single-services">
                                 <div className="service-icon">
                                     <i className="lni lni-bootstrap"></i>
@@ -57,8 +56,7 @@ const Serivces = () => {
                                     </p>
                                 </div>
                             </div>
-                        </div>
-                        <div className="col-lg-4 col-md-6">
+
                             <div className="single-services">
                                 <div className="service-icon">
                                     <i className="lni lni-shortcode"></i>
@@ -71,8 +69,7 @@ const Serivces = () => {
                                     </p>
                                 </div>
                             </div>
-                        </div>
-                        <div className="col-lg-4 col-md-6">
+
                             <div className="single-services">
                                 <div className="service-icon">
                                     <i className="lni lni-dashboard"></i>
@@ -85,8 +82,7 @@ const Serivces = () => {
                                     </p>
                                 </div>
                             </div>
-                        </div>
-                        <div className="col-lg-4 col-md-6">
+
                             <div className="single-services">
                                 <div className="service-icon">
                                     <i className="lni lni-layers"></i>
@@ -95,12 +91,11 @@ const Serivces = () => {
                                     <h4>Presentations</h4>
                                     <p>
                                         Creativity is not everyone’s cup of tea! By seeking nursing assignment help for your
-                                        presentations, you give way to straight A’s in your grade card
+                                        presentations, you give way to straight A’s in your grade card.
                                     </p>
                                 </div>
                             </div>
-                        </div>
-                        <div className="col-lg-4 col-md-6">
+
                             <div className="single-services">
                                 <div className="service-icon">
                                     <i className="lni lni-reload"></i>
