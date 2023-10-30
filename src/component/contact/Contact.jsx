@@ -20,8 +20,8 @@ const Contact = () => {
                                             <div className="contact-content">
                                                 <h4>Contact</h4>
                                                 <p>0984537278623</p>
-                                                <p><a href="https://demo.ayroui.com/cdn-cgi/l/email-protection" className="__cf_email__"
-                                                    data-cfemail="1e67716b6c737f77725e79737f7772307d7173">[email&#160;protected]</a></p>
+                                                <p><a href="hr@learnwithfraternity.com" className="__cf_email__"
+                                                  >help@nursingassignmenthelp.com</a></p>
                                             </div>
                                         </div>
                                     </div>
