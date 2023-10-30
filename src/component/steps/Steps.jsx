@@ -77,7 +77,7 @@ const Steps = () => {
                                     </div>
                                 </div>
                                 <div className="light-rounded-buttons">
-                                    <a href="/" className="btn primary-btn-outline step-btn">
+                                    <a className="btn primary-btn-outline step-btn">
                                         Check Email to Download the Solution
                                     </a>
                                 </div>

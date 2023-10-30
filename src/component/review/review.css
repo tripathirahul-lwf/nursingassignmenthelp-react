@@ -76,7 +76,6 @@
 
 .testimonial-5 .single-testimonial .author {
     position: relative;
-    padding-left: 70px;
     margin-top: 40px;
     display: flex;
     align-items: center
@@ -104,4 +103,11 @@
     font-size: 14px;
     font-weight: 400;
     margin-top: 4px
+}
+
+
+
+.slick-prev,
+.slick-next {
+    display: none;
 }

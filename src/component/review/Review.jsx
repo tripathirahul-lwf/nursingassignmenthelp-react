@@ -50,11 +50,10 @@ const Review = () => {
                             <div className="col-12">
                                 <div className="content">
                                     <h6>Customer Reviews</h6>
-                                    <h2 className="fw-bold">Our Testimonials</h2>
-                                    <p>
-                                        There are many variations of passages of Lorem Ipsum available,
-                                        but the majority have suffered alteration in some form.
-                                    </p>
+                                    <h2 className="fw-bold">Nursing Assignment Help Reviews From Customers Who Loved Us!</h2>
+                                    {/* <p>
+                                    Nursing Assignment Help Reviews From Customers Who Loved Us!
+                                    </p> */}
                                 </div>
                             </div>
                         </div>
@@ -86,16 +85,14 @@ const Review = () => {
                                             <i className="lni lni-quotation"></i>
                                         </div>
                                         <p className="text">
-                                            On the other hand denoun with righteous and disliks men who
-                                            are beguiled demorae momentc blinded by desire that can
+                                            Nursing Assignment help is great with what they do! I took their nursing assignment writing
+                                            for anatomy and trust me they gave me a well-structured, well-organized assignment to fall
+                                            in love with!
+
                                         </p>
                                         <div className="author">
-                                            <div className="image">
-                                                <img src="images/testimonial/author-1.jpg" alt="Author" />
-                                            </div>
                                             <h4 className="name">
-                                                Musharof Chowdhury
-                                                <span className="deg">Web Entrepreneur</span>
+                                                David
                                             </h4>
                                         </div>
                                     </div>
@@ -121,16 +118,13 @@ const Review = () => {
                                             <i className="lni lni-quotation"></i>
                                         </div>
                                         <p className="text">
-                                            On the other hand denoun with righteous and disliks men who
-                                            are beguiled demorae momentc blinded by desire that can
+                                            Decent prices and quality assignment is what I always require from a professional. Nursing
+                                            assignment experts like them did not fail to give me the comfort I was looking for!
                                         </p>
                                         <div className="author">
-                                            <div className="image">
-                                                <img src="images/testimonial/author-2.jpg" alt="Author" />
-                                            </div>
+
                                             <h4 className="name">
-                                                David Warner
-                                                <span className="deg">Web Developer</span>
+                                                Sophie
                                             </h4>
                                         </div>
                                     </div>
@@ -156,16 +150,14 @@ const Review = () => {
                                             <i className="lni lni-quotation"></i>
                                         </div>
                                         <p className="text">
-                                            On the other hand denoun with righteous and disliks men who
-                                            are beguiled demorae momentc blinded by desire that can
+                                            I was drenched in sweat to complete my clinical nursing assignment in time and got to know
+                                            about Nursing Assignment Help through a friend. They did a pretty great job in the least
+                                            amount of time!
                                         </p>
                                         <div className="author">
-                                            <div className="image">
-                                                <img src="images/testimonial/author-3.jpg" alt="Author" />
-                                            </div>
+
                                             <h4 className="name">
-                                                Jems Gilario
-                                                <span className="deg">Graphics Designer</span>
+                                                Arya
                                             </h4>
                                         </div>
                                     </div>
@@ -191,16 +183,15 @@ const Review = () => {
                                             <i className="lni lni-quotation"></i>
                                         </div>
                                         <p className="text">
-                                            On the other hand denoun with righteous and disliks men who
-                                            are beguiled demorae momentc blinded by desire that can
+                                            I had a family emergency and a nursing reflection assignment submission was the day after. I
+                                            chose their urgent nursing assignment help online with too many thoughts in my mind. I was
+                                            happy with the work I receive as I was looking for someone to write my nursing assignment
+                                            in one day! Happy with the quality too.
                                         </p>
                                         <div className="author">
-                                            <div className="image">
-                                                <img src="images/testimonial/author-4.jpg" alt="Author" />
-                                            </div>
+
                                             <h4 className="name">
-                                                David Warner
-                                                <span className="deg">Web Developer</span>
+                                                Malti
                                             </h4>
                                         </div>
                                     </div>
@@ -226,16 +217,14 @@ const Review = () => {
                                             <i className="lni lni-quotation"></i>
                                         </div>
                                         <p className="text">
-                                            On the other hand denoun with righteous and disliks men who
-                                            are beguiled demorae momentc blinded by desire that can
+                                            I tried multiple Nursing Assignment Services before but, never found an easier way to order
+                                            until I found Nursing Assignment Help! The nursing assignment experts were so easy on me.
+                                            I am glad they didn't give me anxiety.
                                         </p>
                                         <div className="author">
-                                            <div className="image">
-                                                <img src="images/testimonial/author-5.jpg" alt="Author" />
-                                            </div>
+
                                             <h4 className="name">
-                                                Naimur Rahman
-                                                <span className="deg">Ui/UX Designer</span>
+                                                Lucy
                                             </h4>
                                         </div>
                                     </div>
