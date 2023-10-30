@@ -15,7 +15,7 @@ const Contact = () => {
                                     <div className="col-12 col-md-6 col-xl-12">
                                         <div className="contact-item">
                                             <div className="contact-icon">
-                                                <i className="lni lni-phone"></i>
+                                                <i class="fa-solid fa-phone-volume"></i>
                                             </div>
                                             <div className="contact-content">
                                                 <h4>Contact</h4>
@@ -28,7 +28,7 @@ const Contact = () => {
                                     <div className="col-12 col-md-6 col-xl-12">
                                         <div className="contact-item">
                                             <div className="contact-icon">
-                                                <i className="lni lni-map-marker"></i>
+                                                <i class="fa-solid fa-location-dot"></i>
                                             </div>
                                             <div className="contact-content">
                                                 <h4>Address</h4>
@@ -40,7 +40,7 @@ const Contact = () => {
                                     <div className="col-12 col-md-6 col-xl-12">
                                         <div className="contact-item">
                                             <div className="contact-icon">
-                                                <i className="lni lni-alarm-clock"></i>
+                                            <i class="fa-solid fa-clock"></i>
                                             </div>
                                             <div className="contact-content">
                                                 <h4>Schedule</h4>

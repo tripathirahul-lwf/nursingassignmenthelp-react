@@ -40,22 +40,19 @@ const Head = () => {
                                 <div className="collapse navbar-collapse navi" id="navbarNine">
                                     <ul className="navbar-nav">
                                         <li className="nav-item">
-                                            <a className="page-scroll active" href="#hero-area">Home</a>
+                                            <a className="page-scroll active" href="#">Home</a>
                                         </li>
                                         <li className="nav-item">
                                             <a className="page-scroll" href="#services">Services</a>
                                         </li>
                                         <li className="nav-item">
-                                            <a className="page-scroll" href="#portfolio">Portfolio</a>
+                                            <a className="page-scroll" href="#review">Review</a>
                                         </li>
                                         <li className="nav-item">
-                                            <a className="page-scroll" href="#pricing">Pricing</a>
+                                            <a className="page-scroll" href="#FAQ">Faqs</a>
                                         </li>
                                         <li className="nav-item">
-                                            <a className="page-scroll" href="#team">Team</a>
-                                        </li>
-                                        <li className="nav-item">
-                                            <a className="page-scroll" href="#contact">Contact</a>
+                                            <a className="page-scroll" href="#footer">About us</a>
                                         </li>
                                     </ul>
                                 </div>

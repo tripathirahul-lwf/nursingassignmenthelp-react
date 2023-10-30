@@ -1,5 +1,11 @@
 import React from 'react'
 import './service.css'
+import thesis from '../images/services/open-book.png'
+import research from '../images/services/research.png'
+import essay from '../images/services/writing.png'
+import caseStudy from '../images/services/file-case.png'
+import proofreading from '../images/services/proofreading.png'
+import Presentation from '../images/services/presentation.png'
 
 const Serivces = () => {
     return (
@@ -31,7 +37,7 @@ const Serivces = () => {
                         <div className="services_main_block">
                             <div className="single-services">
                                 <div className="service-icon">
-                                    <i className="lni lni-capsule"></i>
+                                    <img src={thesis} alt="service-icon" />
                                 </div>
                                 <div className="service-content">
                                     <h4>Thesis</h4>
@@ -44,7 +50,7 @@ const Serivces = () => {
 
                             <div className="single-services">
                                 <div className="service-icon">
-                                    <i className="lni lni-bootstrap"></i>
+                                <img src={research} alt="service-icon" />
                                 </div>
                                 <div className="service-content">
                                     <h4>Research Paper</h4>
@@ -59,7 +65,7 @@ const Serivces = () => {
 
                             <div className="single-services">
                                 <div className="service-icon">
-                                    <i className="lni lni-shortcode"></i>
+                                <img src={essay} alt="service-icon" />
                                 </div>
                                 <div className="service-content">
                                     <h4>Essay Writing </h4>
@@ -72,7 +78,7 @@ const Serivces = () => {
 
                             <div className="single-services">
                                 <div className="service-icon">
-                                    <i className="lni lni-dashboard"></i>
+                                <img src={caseStudy} alt="service-icon" />
                                 </div>
                                 <div className="service-content">
                                     <h4>Case Study</h4>
@@ -85,7 +91,7 @@ const Serivces = () => {
 
                             <div className="single-services">
                                 <div className="service-icon">
-                                    <i className="lni lni-layers"></i>
+                                <img src={Presentation} alt="service-icon" />
                                 </div>
                                 <div className="service-content">
                                     <h4>Presentations</h4>
@@ -98,7 +104,7 @@ const Serivces = () => {
 
                             <div className="single-services">
                                 <div className="service-icon">
-                                    <i className="lni lni-reload"></i>
+                                <img src={proofreading} alt="service-icon" />
                                 </div>
                                 <div className="service-content">
                                     <h4>Editing And Proofreading</h4>

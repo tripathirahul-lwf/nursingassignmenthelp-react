@@ -12,7 +12,6 @@
 }
 
 .services-eight .single-services {
-
     padding: 40px 30px;
     border: 1px solid var(--light-1);
     border-radius: 10px;
@@ -28,28 +27,17 @@
     box-shadow: var(--shadow-4)
 }
 
-.services-eight .single-services:hover .service-icon {
-    color: var(--white);
-    border-color: transparent;
-    background: var(--primary)
-}
 
-.services-eight .single-services:hover .service-icon::after {
-    opacity: 1;
-    visibility: visible
-}
 
-.services-eight .single-services .service-icon {
+
+
+.services-eight .single-services .service-icon img {
     width: 78px;
     height: 78px;
-    border-radius: 50%;
     margin-bottom: 25px;
-    background: var(--white);
-    border: 2px solid var(--primary);
     display: flex;
     align-items: center;
     justify-content: center;
-    color: var(--primary);
     font-size: 40px;
     -webkit-transition: all .3s ease-out 0s;
     -moz-transition: all .3s ease-out 0s;

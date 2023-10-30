@@ -3,9 +3,7 @@ import './client.css'
 import google from '../images/client-logo/google.png'
 import trust from '../images/client-logo/trust.png'
 import sitejabber from '../images/client-logo/sitejabber.png'
-import lineicon from '../images/client-logo/lineicons.svg'
-import tailwind from '../images/client-logo/tailwindtemplates.svg'
-import html from '../images/client-logo/ecomhtml.svg'
+import tsh from '../images/tsh.png'
 
 const Client = () => {
     return (
@@ -26,9 +24,7 @@ const Client = () => {
                                 </div>
                             </div>
                         </div>
-
                     </div>
-
                 </div>
 
                 <div className="container">
@@ -45,14 +41,9 @@ const Client = () => {
                                     <img src={sitejabber} alt="Brand Logo Images" />
                                 </div>
                                 <div className="single-image">
-                                    <img src={lineicon} alt="Brand Logo Images" />
+                                    <img src={tsh} alt="Brand Logo Images" />
                                 </div>
-                                <div className="single-image">
-                                    <img src={tailwind} alt="Brand Logo Images" />
-                                </div>
-                                <div className="single-image">
-                                    <img src={html} alt="Brand Logo Images" />
-                                </div>
+                                
                             </div>
                         </div>
                     </div>

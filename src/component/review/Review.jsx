@@ -43,7 +43,7 @@ const Review = () => {
 
     return (
         <>
-            <section id="testimonial" className="testimonial-5">
+            <section id="review" className="testimonial-5">
                 <div className="section-title-five">
                     <div className="container">
                         <div className="row">

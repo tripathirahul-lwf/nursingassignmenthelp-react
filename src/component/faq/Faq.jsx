@@ -1,6 +1,6 @@
 import React from 'react'
 import './faq.css'
-import faqImg from '../images/faq/faq.webp'
+import faqImg from '../images/faq/faq.jpg'
 
 const FaqMain = () => {
     return (

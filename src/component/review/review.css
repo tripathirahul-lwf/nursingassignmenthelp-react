@@ -106,7 +106,9 @@
 }
 
 
-
+.slick-next:before {
+    content: '';
+}
 .slick-prev,
 .slick-next {
     display: none;

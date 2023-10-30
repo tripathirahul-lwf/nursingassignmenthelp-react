@@ -4,29 +4,50 @@ import './footer.css'
 const Footer = () => {
     return (
         <>
-            <footer className="footer-area footer-eleven">
+            <footer className="footer-area footer-eleven" id='footer'>
 
                 <div className="footer-top">
                     <div className="container">
                         <div className="inner-content">
                             <div className="row">
-                                <div className="col-lg-4 col-md-6 col-12">
-
-                                    <div className="footer-widget f-about">
-                                        <div className="logo">
-                                            <a href="index.html">
-                                                {/* <!-- <img src="assets/images/logo.svg" alt="#" className="img-fluid" /> --> */}
-                                                <h3 className="logo_footer">Nursing</h3>
-                                            </a>
-                                        </div>
-                                        <p>
-                                            Making the world a better place through constructing elegant
-                                            hierarchies.
-                                        </p>
+                                <div className="footer-widget f-about">
+                                    <div className="logo">
+                                        <a href="index.html">
+                                            {/* <!-- <img src="assets/images/logo.svg" alt="#" className="img-fluid" /> --> */}
+                                            <h3 className="logo_footer">Nursing</h3>
+                                        </a>
                                     </div>
-
+                                    <p>
+                                        Making the world a better place through constructing elegant
+                                        hierarchies.
+                                    </p>
+                                    <div class="social-buttons">
+                                        <a href="#" class="social-buttons__button social-button social-button--facebook" aria-label="Facebook">
+                                            <span class="social-button__inner">
+                                                <i class="fab fa-facebook-f"></i>
+                                            </span>
+                                        </a>
+                                        <a href="#" class="social-buttons__button social-button social-button--linkedin" aria-label="LinkedIn">
+                                            <span class="social-button__inner">
+                                                <i class="fab fa-linkedin-in"></i>
+                                            </span>
+                                        </a>
+                                        <a href="https://www.instagram.com/learningatwebdev/" target="_blank" class="social-buttons__button social-button social-button--instagram" aria-label="InstaGram">
+                                            <span class="social-button__inner">
+                                                <i class="fab fa-instagram"></i>
+                                            </span>
+                                        </a>
+                                        <a href="#" class="social-buttons__button social-button social-button--github" aria-label="GitHub">
+                                            <span class="social-button__inner">
+                                                <i class="fab fa-twitter"></i>
+                                            </span>
+                                        </a>
+                                       
+                                    </div>
                                 </div>
-                                <div className="col-lg-2 col-md-6 col-12">
+
+
+                                {/* <div className="col-lg-2 col-md-6 col-12">
 
                                     <div className="footer-widget f-link">
                                         <h5>Solutions</h5>
@@ -67,7 +88,7 @@ const Footer = () => {
                                         </form>
                                     </div>
 
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </div>
