@@ -1,5 +1,6 @@
 import React from 'react'
 import './footer.css'
+import logo from '../images/logo.png'
 
 const Footer = () => {
     return (
@@ -12,9 +13,8 @@ const Footer = () => {
                             <div className="row">
                                 <div className="footer-widget f-about">
                                     <div className="logo">
-                                        <a href="index.html">
-                                            {/* <!-- <img src="assets/images/logo.svg" alt="#" className="img-fluid" /> --> */}
-                                            <h3 className="logo_footer">Nursing</h3>
+                                        <a href="#">
+                                           <img src={logo} alt="#" className="img-fluid" />
                                         </a>
                                     </div>
                                     <p>

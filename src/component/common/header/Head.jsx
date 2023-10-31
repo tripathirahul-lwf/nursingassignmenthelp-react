@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react'
 import './head.css'
+import logo from '../../images/logo.png'
 
 const Head = () => {
 
@@ -27,9 +28,8 @@ const Head = () => {
                     <div className="row">
                         <div className="col-lg-12">
                             <nav className="navbar navbar-expand-lg">
-                                <a className="navbar-brand" href="index.html">
-                                    {/* <!-- <img src="assets/images/white-logo.svg" alt="Logo" /> --> */}
-                                    <h3 className="logo">Nursing</h3>
+                                <a className="navbar-brand" href="#">
+                                     <img src={logo} alt="Logo" /> 
                                 </a>
                                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNine"
                                     aria-controls="navbarNine" aria-expanded="false" aria-label="Toggle navigation">

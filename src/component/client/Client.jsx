@@ -3,7 +3,6 @@ import './client.css'
 import google from '../images/client-logo/google.png'
 import trust from '../images/client-logo/trust.png'
 import sitejabber from '../images/client-logo/sitejabber.png'
-import tsh from '../images/tsh.png'
 
 const Client = () => {
     return (
@@ -29,22 +28,18 @@ const Client = () => {
 
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-8 offset-lg-2 col-12">
-                            <div className="clients-logos">
-                                <div className="single-image">
-                                    <img src={google} alt="Brand Logo Images" />
-                                </div>
-                                <div className="single-image">
-                                    <img src={trust} alt="Brand Logo Images" />
-                                </div>
-                                <div className="single-image">
-                                    <img src={sitejabber} alt="Brand Logo Images" />
-                                </div>
-                                <div className="single-image">
-                                    <img src={tsh} alt="Brand Logo Images" />
-                                </div>
-                                
+                        <div className="clients-logos">
+                            <div className="single-image">
+                                <img src={google} alt="Brand Logo Images" />
                             </div>
+                            <div className="single-image">
+                                <img src={trust} alt="Brand Logo Images" />
+                            </div>
+                            <div className="single-image">
+                                <img src={sitejabber} alt="Brand Logo Images" />
+                            </div>
+
+
                         </div>
                     </div>
                 </div>
