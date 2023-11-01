@@ -25,7 +25,6 @@ const Content = () => {
                         <div className="row">
                             <div className="col-12">
                                 <div className="content">
-                                    <h6>Content</h6>
                                     <h2 className="fw-bold">Online Nursing Assignment Help For A Range Of Subjects</h2>
                                     <p>
                                         Our custom nursing assignment help online ensures to deliver subject specific assignments,

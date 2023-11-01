@@ -2,7 +2,6 @@ import React from 'react'
 import './trusted.css'
 import sitejabber from '../images/sitejabber.png'
 import trust from '../images/trust.png'
-import tsh from '../images/tsh.png'
 import google from '../images/google.png'
 
 const Trusted = () => {
@@ -16,7 +15,7 @@ const Trusted = () => {
                                 <div className="col-12">
                                     <div className="content">
                                         <h6>Trusted </h6>
-                                        <h2 className="fw-bold">Trusated By</h2>
+                                        <h2 className="fw-bold">Trusted By</h2>
                                         <p>
                                             It's not just students who love our nursing assignment help service! We are loved by some of
                                             the most reputed rating websites online!

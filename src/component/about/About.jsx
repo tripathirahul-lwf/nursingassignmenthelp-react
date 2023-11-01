@@ -100,23 +100,28 @@ const About = () => {
             </div>
             <div className="col-lg-6 col-12">
               <div className="about-five-content">
-                <h6 className="small-title text-lg">OUR STORY</h6>
-                <h2 className="main-title fw-bold">Our team comes with the experience and knowledge</h2>
+                <h6 className="small-title text-lg">ABOUT US</h6>
+                <p className="main-title ">A <b>nursing assignment helper</b> offering real time solutions that are extensively researched and
+                  well-structured according to your needs!</p>
                 <div className="about-five-tab">
                   <nav>
                     <div className="nav nav-tabs" id="nav-tab" role="tablist">
                       <button className="nav-link active" id="nav-who-tab" data-bs-toggle="tab" data-bs-target="#nav-who"
-                        type="button" role="tab" aria-controls="nav-who" aria-selected="true">Who We Are</button>
+                        type="button" role="tab" aria-controls="nav-who" aria-selected="true">Our Story</button>
                       <button className="nav-link" id="nav-vision-tab" data-bs-toggle="tab" data-bs-target="#nav-vision"
-                        type="button" role="tab" aria-controls="nav-vision" aria-selected="false">our Vision</button>
+                        type="button" role="tab" aria-controls="nav-vision" aria-selected="false">Our Vision</button>
                       <button className="nav-link" id="nav-history-tab" data-bs-toggle="tab" data-bs-target="#nav-history"
-                        type="button" role="tab" aria-controls="nav-history" aria-selected="false">our History</button>
+                        type="button" role="tab" aria-controls="nav-history" aria-selected="false">Our Mission</button>
                     </div>
                   </nav>
                   <div className="tab-content" id="nav-tabContent">
                     <div className="tab-pane fade show active" id="nav-who" role="tabpanel" aria-labelledby="nav-who-tab">
-                      <p>A <b>nursing assignment helper</b> offering real time solutions that are extensively researched and
-                        well-structured according to your needs!
+                      <p>Nursing Assignment Help is a trusted academic companion offering highly researched and
+                        strategized answers to your assignments. Holding a team of seasoned nursing assignment
+                        experts, our aim is to support you in achieving the academic success you deserve. With an
+                        utmost focus on confidentiality, integrity and 24/7 availability, our nursing assignment
+                        writers ensure to become a trusted source to receive subject-specific assignment help
+                        whenever and wherever!
                       </p>
                     </div>
                     <div className="tab-pane fade" id="nav-vision" role="tabpanel" aria-labelledby="nav-vision-tab">
@@ -124,7 +129,7 @@ const About = () => {
                         empower the upcoming generation to focus on becoming the best in healthcare professions.
                         We strive to be the support students need by collaborating with the best nursing assignment
                         experts when they are busy in the world of healthcare. Our ultimate vision is to become the
-                        source of relief when it comes to seeking professional nursing assignment help Australia. </p>
+                        source of relief when it comes to seeking professional nursing assignment help Australia.  </p>
                     </div>
                     <div className="tab-pane fade" id="nav-history" role="tabpanel" aria-labelledby="nav-history-tab">
                       <p>Nursing Assignment Help and its team members are on a thoughtful mission to enable

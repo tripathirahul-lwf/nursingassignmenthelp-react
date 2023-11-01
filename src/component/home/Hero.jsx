@@ -12,9 +12,6 @@ const Hero = () => {
               <div className="header-content">
                 <h1>Best Nursing Assignment Help in Australia</h1>
                 <p>
-                  Nurse your assignment back to life with our nursing assignment help experts online!
-                </p>
-                <p>
                   Get top Nursing Assignment writing services from our team of world-class PhD writers!
 
                 </p>

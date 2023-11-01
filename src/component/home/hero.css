@@ -74,8 +74,8 @@
 
 .header-eight .header-content p {
     margin-top: 30px;
+    font-size: 16px;
     color: var(--white);
-    opacity: .7
 }
 
 .header-eight .button {

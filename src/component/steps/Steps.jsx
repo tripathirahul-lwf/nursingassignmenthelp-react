@@ -48,14 +48,14 @@ const Steps = () => {
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6 col-12">
-                            <div className="pricing-style-fourteen middle">
+                            <div className="pricing-style-fourteen ">
                                 <div className="table-head">
-                                    <div className="steps active">
+                                    <div className="steps">
                                         02
                                     </div>
                                 </div>
                                 <div className="light-rounded-buttons">
-                                    <a className="btn primary-btn step-btn">
+                                    <a className="btn primary-btn-outline step-btn">
                                         Initiate Payment
                                     </a>
                                 </div>

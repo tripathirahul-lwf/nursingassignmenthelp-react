@@ -330,3 +330,137 @@ p {
   padding-top: 120px;
   padding-bottom: 90px
 }
+
+.whatsAppCTAWrp {
+  position: fixed;
+  bottom: 20px;
+  left: 21px;
+  z-index: 999;
+  background: #25d366;
+  width: 45px;
+  height: 45px;
+  border-radius: 7px;
+  transition: ease all 0.5s;
+  box-shadow: 1px 1px 4px #777;
+  overflow: hidden;
+}
+
+.whtIcon img {
+  width: 30px;
+  margin: 0px auto;
+  text-align: center;
+}
+
+.whatsAppCTAWrp p a {
+  padding: 5px 5px;
+  color: #fff;
+  display: inline-block;
+  line-height: normal;
+  overflow: hidden;
+  width: 100%;
+  text-align: center;
+  margin: 0px auto;
+}
+
+.whtIcon {
+  float: left;
+  width: auto;
+  padding: 0 0px 0 0;
+  margin-left: 3px;
+}
+
+span.whatsAppText {
+  float: left;
+  width: 84%;
+  text-align: left;
+  text-align-last: left;
+  padding: 1px 0 0;
+  display: none;
+}
+
+.whatsAppText strong {
+  width: 100%;
+  float: left;
+  font-size: 15px;
+  line-height: 15px;
+}
+
+.whatsAppText small {
+  font-size: 14px;
+}
+
+.whatsAppCTAWrp:hover {
+  width: 250px;
+}
+
+.whatsAppCTAWrp:hover .whatsAppText {
+  display: block;
+}
+
+.whatsAppCTAWrp p {
+  display: block;
+  height: 100%;
+  text-align: center;
+}
+
+.btnhover .mt_btn_white-bor {
+  color: #fff
+}
+
+.btnhover .mt_btn_white-bor:before {
+  background-color: #31b8a8;
+}
+
+.btnhover .mt_btn_white-bor.on-hover {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.btnhover {
+  display: inline-block;
+  position: relative;
+  margin-left: 5px;
+  width: 76%;
+  transition: all 400ms ease;
+}
+
+.btnhover:hover .mt_btn_white-bor.on-hover {
+  opacity: 1;
+  transition: all 200ms ease;
+  border: 2px solid #fff;
+  padding: 8px 20px;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+.btnhover:hover .mt_btn_white-bor {
+  opacity: 0;
+}
+
+.whatsAppCTAWrp {
+  position: fixed;
+  bottom: 20px;
+  left: 21px;
+  z-index: 1;
+  background: #25d366;
+  width: 45px;
+  height: 45px;
+  border-radius: 7px;
+  transition: ease all 0.5s;
+  box-shadow: 1px 1px 4px #777;
+  overflow: hidden;
+}
+
+.whatsAppCTAWrp p {
+  display: block;
+  height: 100%;
+  text-align: center;
+}
+
+.whtIcon img {
+  width: 30px;
+  margin: 0px auto;
+  text-align: center;
+}

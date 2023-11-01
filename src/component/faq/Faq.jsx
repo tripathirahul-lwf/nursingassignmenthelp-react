@@ -13,10 +13,7 @@ const FaqMain = () => {
                                 <div className="content">
                                     <h6>FAQs</h6>
                                     <h2 className="fw-bold">Frequently Asked Questions</h2>
-                                    <p>
-                                        There are many variations of passages of Lorem Ipsum available,
-                                        but the majority have suffered alteration in some form.
-                                    </p>
+                                   
                                 </div>
                             </div>
                         </div>

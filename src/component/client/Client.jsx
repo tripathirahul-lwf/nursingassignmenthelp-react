@@ -16,10 +16,7 @@ const Client = () => {
                                 <div className="content">
                                     <h6>Meet our Clients</h6>
                                     <h2 className="fw-bold">Our Awesome Clients</h2>
-                                    <p>
-                                        There are many variations of passages of Lorem Ipsum available,
-                                        but the majority have suffered alteration in some form.
-                                    </p>
+                                   
                                 </div>
                             </div>
                         </div>
