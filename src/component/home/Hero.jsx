@@ -16,7 +16,7 @@ const Hero = () => {
 
                 </p>
                 <div className="button">
-                  <a href="/" className="btn primary-btn">Connect with expert</a>
+                  <a href="https://api.whatsapp.com/send?phone=61493535569&text=I%20Need%20Help!!" className="btn primary-btn">Connect with expert</a>
                 </div>
               </div>
             </div>

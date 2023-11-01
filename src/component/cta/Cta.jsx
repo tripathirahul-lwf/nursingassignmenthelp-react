@@ -19,7 +19,7 @@ const Cta = () => {
                                     We say give us a try and we assure to never let you down!
                                 </p>
                                 <div className="light-rounded-buttons">
-                                    <a href="/" className="btn primary-btn-outline">GET HELP</a>
+                                    <a href="https://api.whatsapp.com/send?phone=61493535569&text=I%20Need%20Help!!" className="btn primary-btn-outline">GET HELP</a>
                                 </div>
                             </div>
                         </div>
