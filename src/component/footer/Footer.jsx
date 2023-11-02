@@ -19,10 +19,7 @@ const Footer = () => {
                                             <img src={logo} alt="#" className="img-fluid" />
                                         </a>
                                     </div>
-                                    <p>
-                                        Making the world a better place through constructing elegant
-                                        hierarchies.
-                                    </p>
+                                   
                                     <div class="social-buttons">
                                         <a href="#" class="social-buttons__button social-button social-button--facebook" aria-label="Facebook">
                                             <span class="social-button__inner">
