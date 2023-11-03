@@ -27,7 +27,7 @@ const FaqMain = () => {
                     <div className="row">
                         <div className="col-lg-6">
                             <div className="faq-img">
-                                <img src={faqImg} alt="img" />
+                                <img src={faqImg} alt="faq-img" loading='lazy'/>
                             </div>
                         </div>
                         <div className="col-lg-6">

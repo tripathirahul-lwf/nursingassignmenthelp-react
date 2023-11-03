@@ -37,7 +37,7 @@ const Serivces = () => {
                         <div className="services_main_block">
                             <div className="single-services">
                                 <div className="service-icon">
-                                    <img src={thesis} alt="service-icon" />
+                                    <img src={thesis} alt="service-icon" loading='lazy'/>
                                 </div>
                                 <div className="service-content">
                                     <h4>Thesis</h4>
@@ -50,7 +50,7 @@ const Serivces = () => {
 
                             <div className="single-services">
                                 <div className="service-icon">
-                                <img src={research} alt="service-icon" />
+                                <img src={research} alt="service-icon" loading='lazy'/>
                                 </div>
                                 <div className="service-content">
                                     <h4>Research Paper</h4>
@@ -65,7 +65,7 @@ const Serivces = () => {
 
                             <div className="single-services">
                                 <div className="service-icon">
-                                <img src={essay} alt="service-icon" />
+                                <img src={essay} alt="service-icon" loading='lazy'/>
                                 </div>
                                 <div className="service-content">
                                     <h4>Essay Writing </h4>
@@ -78,7 +78,7 @@ const Serivces = () => {
 
                             <div className="single-services">
                                 <div className="service-icon">
-                                <img src={caseStudy} alt="service-icon" />
+                                <img src={caseStudy} alt="service-icon" loading='lazy'/>
                                 </div>
                                 <div className="service-content">
                                     <h4>Case Study</h4>
@@ -91,7 +91,7 @@ const Serivces = () => {
 
                             <div className="single-services">
                                 <div className="service-icon">
-                                <img src={Presentation} alt="service-icon" />
+                                <img src={Presentation} alt="service-icon" loading='lazy'/>
                                 </div>
                                 <div className="service-content">
                                     <h4>Presentations</h4>
@@ -104,7 +104,7 @@ const Serivces = () => {
 
                             <div className="single-services">
                                 <div className="service-icon">
-                                <img src={proofreading} alt="service-icon" />
+                                <img src={proofreading} alt="service-icon" loading='lazy'/>
                                 </div>
                                 <div className="service-content">
                                     <h4>Editing And Proofreading</h4>

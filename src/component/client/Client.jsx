@@ -27,13 +27,13 @@ const Client = () => {
                     <div className="row">
                         <div className="clients-logos">
                             <div className="single-image">
-                                <img src={google} alt="Brand Logo Images" />
+                                <img src={google} alt="Brand Logo Images" loading='lazy'/>
                             </div>
                             <div className="single-image">
-                                <img src={trust} alt="Brand Logo Images" />
+                                <img src={trust} alt="Brand Logo Images" loading='lazy'/>
                             </div>
                             <div className="single-image">
-                                <img src={sitejabber} alt="Brand Logo Images" />
+                                <img src={sitejabber} alt="Brand Logo Images" loading='lazy'/>
                             </div>
 
 

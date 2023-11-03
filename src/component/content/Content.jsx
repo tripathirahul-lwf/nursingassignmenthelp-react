@@ -58,7 +58,7 @@ const Content = () => {
                             </div>
                             <div className="col-lg-6">
                                 <div className="content-img">
-                                    <img src={contentImg} alt="" />
+                                    <img src={contentImg} alt="content-img" loading='lazy' />
                                 </div>
                             </div>
                         </div>

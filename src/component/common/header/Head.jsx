@@ -29,7 +29,7 @@ const Head = () => {
                         <div className="col-lg-12">
                             <nav className="navbar navbar-expand-lg">
                                 <a className="navbar-brand" href="#">
-                                     <img src={logo} alt="Logo" /> 
+                                     <img src={logo} alt="Logo" loading='lazy' /> 
                                 </a>
                                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNine"
                                     aria-controls="navbarNine" aria-expanded="false" aria-label="Toggle navigation">

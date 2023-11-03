@@ -72,7 +72,7 @@ const Trusted = () => {
                                     <div className="review-count">2167 review</div>
 
                                     <div className="trusted-logo">
-                                        <img src={google} alt="logo" />
+                                        <img src={google} alt="trusted-img" loading='lazy' />
                                     </div>
                                 </div>
                             </div>
@@ -122,7 +122,7 @@ const Trusted = () => {
                                     <div className="review-count">1707 review</div>
 
                                     <div className="trusted-logo">
-                                        <img src={trust} alt="logo" />
+                                        <img src={trust} alt="trusted-img" loading='lazy' />
                                     </div>
                                 </div>
                             </div>
@@ -174,7 +174,7 @@ const Trusted = () => {
                                     <div className="review-count">1289 review</div>
 
                                     <div className="trusted-logo">
-                                        <img src={sitejabber} alt="logo" />
+                                        <img src={sitejabber} alt="trusted-img" loading='lazy' />
                                     </div>
                                 </div>
                             </div>

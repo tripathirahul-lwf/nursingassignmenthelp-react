@@ -95,7 +95,7 @@ const About = () => {
                   <circle cx="60.333" cy="132" r="1.66667" fill="#DADADA" />
                   <circle cx="104" cy="132" r="1.66667" fill="#DADADA" />
                 </svg>
-                <img src={aboutImg} alt="about" />
+                <img src={aboutImg} alt="about-img" loading='lazy' />
               </div>
             </div>
             <div className="col-lg-6 col-12">

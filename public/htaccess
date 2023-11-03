@@ -1,0 +1,9 @@
+https://www.nursingassignmenthelp.au/
+
+Redirect 301 /index.php /
+
+ErrorDocument 404 https://www.nursingassignmenthelp.au/404.php
+
+RewriteCond %{HTTP_HOST} ^www\.(.+)
+RewriteCond %{HTTPS}s/%1 ^(on(s)|offs)/(.+)
+RewriteRule ^ http%2://%3%{REQUEST_URI} [L,R=301]
