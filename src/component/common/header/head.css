@@ -44,7 +44,7 @@
 }
 
 .navbar-area.navbar-nine .navbar-brand {
-    height: 90px;
+    height: 70px;
     margin: 0
 }
 
@@ -54,12 +54,12 @@
 }
 
 .navbar-area.sticky .navbar-brand {
-    height: 80px;
+    height: 65px;
 }
 
 @media only screen and (max-width:480px) {
     .navbar-area.navbar-nine .navbar-brand {
-        height: 90px;
+        height: 70px;
         width: 230px;
     }
 }

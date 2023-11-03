@@ -16,7 +16,7 @@ const Footer = () => {
                                 <div className="footer-widget f-about">
                                     <div className="logo">
                                         <a href="#">
-                                            <img src={logo} alt="#" className="footer-logo" loading='lazy'/>
+                                            <img src={logo} alt="footer-logo" className="img-fluid" loading='lazy'/>
                                         </a>
                                     </div>
                                    
