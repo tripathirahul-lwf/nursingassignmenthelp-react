@@ -51,9 +51,7 @@ const Review = () => {
                                 <div className="content">
                                     <h6>Customer Reviews</h6>
                                     <h2 className="fw-bold">Nursing Assignment Help Reviews From Customers Who Loved Us!</h2>
-                                    {/* <p>
-                                    Nursing Assignment Help Reviews From Customers Who Loved Us!
-                                    </p> */}
+                                  
                                 </div>
                             </div>
                         </div>
