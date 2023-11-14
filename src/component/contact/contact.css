@@ -1,18 +1,15 @@
 .contact-section {
+    background-color: var(--light-3);
     position: relative;
     z-index: 3;
-    padding: 80px 0;
+    padding: 60px 0 60px;
 }
 
-@media only screen and (min-width:768px) and (max-width:991px) {
-    .contact-section {
-        padding-top: 80px
-    }
-}
+
 
 @media(max-width:767px) {
     .contact-section {
-        padding-top: 60px
+        padding: 40px 0
     }
 }
 .phone,.email{
@@ -34,6 +31,7 @@
     background: var(--white);
     margin-bottom: 30px;
     padding: 20px 30px;
+    box-shadow: var(--shadow-4);
     -webkit-transition: all .3s ease-out 0s;
     -moz-transition: all .3s ease-out 0s;
     -ms-transition: all .3s ease-out 0s;
@@ -41,9 +39,6 @@
     transition: all .3s ease-out 0s
 }
 
-.contact-section .contact-item-wrapper .contact-item:hover {
-    box-shadow: var(--shadow-4)
-}
 
 @media only screen and (min-width:1200px) and (max-width:1399px) {
     .contact-section .contact-item-wrapper .contact-item {

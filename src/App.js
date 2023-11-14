@@ -1,34 +1,23 @@
 import './App.css';
-import About from './component/about/About';
-import Client from './component/client/Client';
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Header from './component/common/header/Header';
-import Contact from './component/contact/Contact';
-import Content from './component/content/Content';
-import Cta from './component/cta/Cta';
-import Faq from './component/faq/Faq';
 import Footer from './component/footer/Footer';
-import Home from './component/home/Home';
-import Review from './component/review/Review';
-import Serivces from './component/servics/Serivces';
-import Steps from './component/steps/Steps';
-import Trusted from './component/trusted/Trusted';
+import Home from './component/Home';
+import Thankyou from './component/thankyou/Thankyou';
+import ErrorPage from './component/page_404/ErrorPage';
 
 function App() {
   return (
     <>
-      <Header />
-      <Home />
-      <Trusted />
-      <Steps />
-      <About />
-      <Serivces />
-      <Content />
-      <Cta />
-      <Review />
-      <Faq />
-      <Client />
-      <Contact />
-      <Footer />
+      <BrowserRouter>
+        <Header />
+        <Routes>
+          <Route path="" element={<Home />} />
+          <Route path="/thankyou" element={<Thankyou />} />
+          <Route path="*" element={<ErrorPage />} />
+        </Routes>
+        <Footer />
+      </BrowserRouter>
     </>
   );
 }

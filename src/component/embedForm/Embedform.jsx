@@ -9,10 +9,10 @@ const Embedform = () => {
         document.body.appendChild(script);
     
         script.onload = () => {
-          var formsappForm = new window.formsapp('64edf9f987b11fad18feb978', 'standard', {"width":"100%","height":"500px","opacity":0});
+          var formsappForm = new window.formsapp('6540f2c54b72a9ccdc5b214f', 'standard', {"width":"100%","height":"500px","opacity":0});
         }
       },[])
-      return <div formsappId="64edf9f987b11fad18feb978" ></div>;
+      return <div formsappId="6540f2c54b72a9ccdc5b214f" ></div>;
 }
 
 export default Embedform

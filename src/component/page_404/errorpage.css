@@ -1,0 +1,14 @@
+.main-block{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.error_page-img{
+   max-height: 650px;
+    max-width: 800px;
+}
+.error_page-img img {
+   height: 700px;
+    width: 100%;
+}

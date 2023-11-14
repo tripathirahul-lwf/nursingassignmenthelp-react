@@ -7,7 +7,7 @@ const Cta = () => {
             <section id="call-action" className="call-action">
                 <div className="container">
                     <div className="row justify-content-center">
-                        <div className="col-xxl-6 col-xl-7 col-lg-8 col-md-9">
+                        <div className="col-xxl-8  col-xl-8 col-lg-8 col-md-9">
                             <div className="inner-content">
                                 <h2>How Our Nursing Assignment Help is Extraordinary?</h2>
                                 <p>

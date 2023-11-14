@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import './content.css'
-import contentImg from '../images/nursing-assignment.webp'
+import doctor from '../images/doctor.jpg'
 
 
 const Content = () => {
@@ -44,9 +44,9 @@ const Content = () => {
                                 <div className="accordi">
                                     {data.map((item, i) => (
                                         <div className="accordion-item">
-                                            <div className={select == i ? "accordion-item-header active" : "accordion-item-header"} onClick={() => toggle(i)}>
+                                            <h4 className={select == i ? "accordion-item-header active" : "accordion-item-header"} onClick={() => toggle(i)}>
                                                 {item.title}
-                                            </div>
+                                            </h4>
                                             <div className={select == i ? "accordion-item-body show" : "accordion-item-body"}>
                                                 <div className="accordion-item-body-content">
                                                     {item.description}
@@ -58,7 +58,7 @@ const Content = () => {
                             </div>
                             <div className="col-lg-6">
                                 <div className="content-img">
-                                    <img src={contentImg} alt="content-img" loading='lazy' />
+                                    <img src={doctor} alt="content-img" loading='lazy' />
                                 </div>
                             </div>
                         </div>
@@ -72,7 +72,7 @@ const Content = () => {
 const data = [
     {
         title: 'Aged Care Nursing Assignment Help',
-        description: 'Aged care nursing assignments require a student to gain a deep understanding of the needs and requirements of elderly parents to answer the questions accurately. Our nursingassignment writing services have Ph.D. level writers who specialize in delivering wellresearched answers with their expertise'
+        description: 'Aged care nursing assignments require a student to gain a deep understanding of the needs and requirements of elderly parents to answer the questions accurately. Our nursing assignment writing services have Ph.D. level writers who specialize in delivering well - researched answers with their expertise'
     },
     {
         title: 'Ambulatory Care Nursing Assignment Help',
@@ -84,7 +84,7 @@ const data = [
     },
     {
         title: 'Cardiac Nursing Assignment Help',
-        description: ' Can not get the complexity of cardiac conditions and treatments required to cure the same? Our nursing assignment help can assist you with real time solutions without stressing you out with hours of research work. All you need to do is tell us your story and we will curate something your professor will fall in love with.'
+        description: 'Can not get the complexity of cardiac conditions and treatments required to cure the same? Our nursing assignment help can assist you with real time solutions without stressing you out with hours of research work. All you need to do is tell us your story and we will curate something your professor will fall in love with.'
     },
     {
         title: 'Clinical Nursing Assignment Help',

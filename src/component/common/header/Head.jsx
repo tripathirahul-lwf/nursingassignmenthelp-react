@@ -3,6 +3,12 @@ import './head.css'
 import logo from '../../images/logo.png'
 
 const Head = () => {
+    const closeNav = () => {
+        let a = document.getElementById('navButton')
+        a.classList.add('collapsed')
+        let b = document.getElementById('navbarNine')
+        b.classList.remove('show')
+      };
 
     useEffect(() => {
         const handleScroll = () => {
@@ -32,7 +38,7 @@ const Head = () => {
                                      <img src={logo} alt="Logo" loading='lazy' /> 
                                 </a>
                                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNine"
-                                    aria-controls="navbarNine" aria-expanded="false" aria-label="Toggle navigation">
+                                    aria-controls="navbarNine" aria-expanded="false" aria-label="Toggle navigation" id='navButton'>
                                     <span className="toggler-icon"></span>
                                     <span className="toggler-icon"></span>
                                     <span className="toggler-icon"></span>
@@ -40,19 +46,19 @@ const Head = () => {
                                 <div className="collapse navbar-collapse navi" id="navbarNine">
                                     <ul className="navbar-nav">
                                         <li className="nav-item">
-                                            <a className="page-scroll active" href="#">Home</a>
+                                            <a className="page-scroll active" href="#"  onClick={closeNav}>Home</a>
                                         </li>
                                         <li className="nav-item">
-                                            <a className="page-scroll" href="#services">Services</a>
+                                            <a className="page-scroll" href="#services"  onClick={closeNav}>Services</a>
                                         </li>
                                         <li className="nav-item">
-                                            <a className="page-scroll" href="#review">Review</a>
+                                            <a className="page-scroll" href="#review"  onClick={closeNav}>Review</a>
                                         </li>
                                         <li className="nav-item">
-                                            <a className="page-scroll" href="#FAQ">Faqs</a>
+                                            <a className="page-scroll" href="#FAQ"  onClick={closeNav}>Faqs</a>
                                         </li>
                                         <li className="nav-item">
-                                            <a className="page-scroll" href="#footer">About us</a>
+                                            <a className="page-scroll" href="#contact"  onClick={closeNav}>Contact us</a>
                                         </li>
                                     </ul>
                                 </div>

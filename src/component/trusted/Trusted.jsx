@@ -14,7 +14,6 @@ const Trusted = () => {
                             <div className="row">
                                 <div className="col-12">
                                     <div className="content">
-                                        <h6>Trusted </h6>
                                         <h2 className="fw-bold">Trusted By</h2>
                                         <p>
                                             It's not just students who love our nursing assignment help service! We are loved by some of
@@ -72,7 +71,7 @@ const Trusted = () => {
                                     <div className="review-count">2167 review</div>
 
                                     <div className="trusted-logo">
-                                        <img src={google} alt="trusted-img" loading='lazy' />
+                                        <img className='googleImg' src={google} alt="google-logo" loading='lazy' />
                                     </div>
                                 </div>
                             </div>
@@ -122,7 +121,7 @@ const Trusted = () => {
                                     <div className="review-count">1707 review</div>
 
                                     <div className="trusted-logo">
-                                        <img src={trust} alt="trusted-img" loading='lazy' />
+                                        <img src={trust} alt="trustpilot-logo" loading='lazy' />
                                     </div>
                                 </div>
                             </div>
@@ -174,13 +173,11 @@ const Trusted = () => {
                                     <div className="review-count">1289 review</div>
 
                                     <div className="trusted-logo">
-                                        <img src={sitejabber} alt="trusted-img" loading='lazy' />
+                                        <img src={sitejabber} alt="sitejabber-logo" loading='lazy' />
                                     </div>
                                 </div>
                             </div>
                         </div>
-
-                       
                     </div>
                 </div>
             </section>

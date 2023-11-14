@@ -1,17 +1,15 @@
 .pricing-fourteen {
-    padding: 100px 0;
+    padding: 60px 0;
  
 }
 
-@media only screen and (min-width:768px) and (max-width:991px) {
-    .pricing-fourteen {
-        padding: 80px
-    }
-}
 
 @media(max-width:767px) {
     .pricing-fourteen {
         padding: 60px 0
+    }
+    .pricing-style-fourteen {
+        box-shadow: var(--shadow-4)
     }
 }
 

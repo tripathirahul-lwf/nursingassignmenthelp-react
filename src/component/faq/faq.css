@@ -1,5 +1,5 @@
 .FAQs {
-    padding: 80px 0;
+    padding: 60px 0;
 }
 
 .faq-img {
@@ -73,7 +73,6 @@
 }
 
 .accordion-button:not(.collapsed) {
-    /* color:; */
     background-color: #fff;
     box-shadow: none;
 }
@@ -85,3 +84,14 @@
 .faqList li {
     margin-left: 2rem;
 }
+@media screen and (max-width:991px) {
+    .faq-img {
+      display:  none;
+    }
+}
+@media screen and (max-width:480px) {
+    .FAQs {
+        padding: 30px 0;
+    }
+}
+

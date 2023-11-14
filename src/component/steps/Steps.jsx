@@ -11,12 +11,10 @@ const Steps = () => {
                         <div className="row">
                             <div className="col-12">
                                 <div className="content">
-                                    <h6>Steps</h6>
                                     <h2 className="fw-bold">How To Get Help With Nursing Assignment?</h2>
                                     <p>
                                         Want to make an urgent nursing assignment help order? Our three-step ordering process will
                                         assist you in getting help with nursing assignment as quickly as possible!
-
                                     </p>
                                 </div>
                             </div>
@@ -33,9 +31,9 @@ const Steps = () => {
                                     </div>
                                 </div>
                                 <div className="light-rounded-buttons">
-                                    <a className="btn primary-btn-outline step-btn">
+                                    <h3 className="btn primary-btn-outline step-btn">
                                         Provide the Details
-                                    </a>
+                                    </h3>
                                 </div>
                                 <div className="table-content">
                                     <p className="step_content">
@@ -55,9 +53,9 @@ const Steps = () => {
                                     </div>
                                 </div>
                                 <div className="light-rounded-buttons">
-                                    <a className="btn primary-btn-outline step-btn">
+                                    <h3 className="btn primary-btn-outline step-btn">
                                         Initiate Payment
-                                    </a>
+                                    </h3>
                                 </div>
                                 <div className="table-content">
                                     <p className="step_content">
@@ -77,9 +75,9 @@ const Steps = () => {
                                     </div>
                                 </div>
                                 <div className="light-rounded-buttons">
-                                    <a className="btn primary-btn-outline step-btn">
+                                    <h3 className="btn primary-btn-outline step-btn">
                                         Check Email to Download the Solution
-                                    </a>
+                                    </h3>
                                 </div>
                                 <div className="table-content">
                                     <p className="step_content">

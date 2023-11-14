@@ -48,11 +48,7 @@ const Review = () => {
                     <div className="container">
                         <div className="row">
                             <div className="col-12">
-                                <div className="content">
-                                    <h6>Customer Reviews</h6>
                                     <h2 className="fw-bold">Nursing Assignment Help Reviews From Customers Who Loved Us!</h2>
-                                  
-                                </div>
                             </div>
                         </div>
 
@@ -86,7 +82,6 @@ const Review = () => {
                                             Nursing Assignment help is great with what they do! I took their nursing assignment writing
                                             for anatomy and trust me they gave me a well-structured, well-organized assignment to fall
                                             in love with!
-
                                         </p>
                                         <div className="author">
                                             <h4 className="name">

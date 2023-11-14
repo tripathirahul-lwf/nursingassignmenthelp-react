@@ -100,7 +100,7 @@ const About = () => {
             </div>
             <div className="col-lg-6 col-12">
               <div className="about-five-content">
-                <h6 className="small-title text-lg">ABOUT US</h6>
+                <h2 className="small-title text-lg">ABOUT US</h2>
                 <p className="main-title ">A <b>nursing assignment helper</b> offering real time solutions that are extensively researched and
                   well-structured according to your needs!</p>
                 <div className="about-five-tab">

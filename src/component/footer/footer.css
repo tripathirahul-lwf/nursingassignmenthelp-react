@@ -1,6 +1,6 @@
 .footer-eleven {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 60px;
+    padding-bottom: 60px;
     background: var(--primary);
     position: relative
 }
@@ -32,12 +32,7 @@
     }
 }
 
-.logo_footer {
-    font-size: 35px;
-    color: #000;
-    font-size: 700;
-    font-family: 'Varela Round', sans-serif;
-}
+
 
 .footer-widget .logo img {
     height: 90px;
@@ -72,6 +67,11 @@
     .footer-eleven .f-about .copyright-text {
         margin-top: 20px
     }
+
+    .footer-widget .logo img {
+        height: 70px;
+    }
+
 }
 
 .footer-eleven .f-about .copyright-text a {
@@ -279,10 +279,12 @@ only screen and (min-width:1400px) {
 .social-button--instagram::after {
     background: #e4405f;
 }
-.copy{
+
+.copy {
     margin-top: 1rem;
     color: #fff;
 }
+
 .container-fluid {
     --bs-gutter-x: 0;
 }
@@ -292,10 +294,12 @@ only screen and (min-width:1400px) {
     padding: 10px 30px;
     color: #fff;
 }
-.disc a{
+
+.disc a {
     text-decoration: none;
     color: #fff;
 }
-.disc a:hover{
+
+.disc a:hover {
     text-decoration: underline;
 }

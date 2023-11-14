@@ -1,8 +1,15 @@
 .truedby {
-    padding: 100px 0;
+    padding: 40px 0;
     background-color: var(--light-3);
 }
-
+@media only screen and (min-width:480px) and (max-width: 767px) {
+    .trusted-logo .googleImg {       
+        width: 50%;
+    }
+}
+.trusted-logo .googleImg {       
+    width: 50%;
+}
 .trusted-block {
     text-align: center;
     padding: 35px;
@@ -46,3 +53,10 @@
         margin: 1rem;
     }
 }
+
+@media only screen and (min-width:767px)and (max-width: 991px) {
+    .trusted-logo img {       
+        width: 90%;
+    }
+}
+

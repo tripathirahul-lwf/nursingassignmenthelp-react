@@ -8,7 +8,6 @@ const Footer = () => {
     return (
         <>
             <footer className="footer-area footer-eleven" id='footer'>
-
                 <div className="footer-top">
                     <div className="container">
                         <div className="inner-content">
@@ -16,10 +15,10 @@ const Footer = () => {
                                 <div className="footer-widget f-about">
                                     <div className="logo">
                                         <a href="#">
-                                            <img src={logo} alt="footer-logo" className="img-fluid" loading='lazy'/>
+                                            <img src={logo} alt="nursingassignmenthelp-logo" className="img-fluid" loading='lazy' />
                                         </a>
                                     </div>
-                                   
+
                                     <div class="social-buttons">
                                         <a href="#" class="social-buttons__button social-button social-button--facebook" aria-label="Facebook">
                                             <span class="social-button__inner">
@@ -53,7 +52,9 @@ const Footer = () => {
             </footer>
             <div className="container-fluid">
                 <div className="disc">
-                    <strong>Disclaimer : </strong> All academic content provided by <a href="#">nursingassignmenthelp.au</a>, including assignments, essays, papers, and presentations, is intended for reference only. We strictly disapprove of plagiarism and expect users to use these resources for their own writing purposes.
+                    <div className="container">
+                        <strong>Disclaimer : </strong> All academic content provided by <a href="#">nursingassignmenthelp.au</a>, including assignments, essays, papers, and presentations, is intended for reference only. We strictly disapprove of plagiarism and expect users to use these resources for their own writing purposes.
+                    </div>
                 </div>
             </div>
         </>
