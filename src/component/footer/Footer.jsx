@@ -30,7 +30,7 @@ const Footer = () => {
                                                 <i class="fab fa-linkedin-in"></i>
                                             </span>
                                         </a>
-                                        <a href="https://www.instagram.com/learningatwebdev/" target="_blank" class="social-buttons__button social-button social-button--instagram" aria-label="InstaGram">
+                                        <a href="#" target="_blank" class="social-buttons__button social-button social-button--instagram" aria-label="InstaGram">
                                             <span class="social-button__inner">
                                                 <i class="fab fa-instagram"></i>
                                             </span>
